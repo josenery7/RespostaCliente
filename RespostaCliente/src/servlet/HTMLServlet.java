@@ -22,7 +22,6 @@ public class HTMLServlet extends HttpServlet {
 			out = response.getWriter();
 
 			response.setContentType("text/html");
-
 			out.print("<html><body>");
 			out.print("<h1>Título da Página</h1>");
 			out.print("<strong>Este é um texto em negritos</strong>");
